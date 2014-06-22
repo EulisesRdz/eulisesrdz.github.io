@@ -87,7 +87,7 @@ body{
 }
 .menu a:hover, nav a:active {
     background-color: #2BBDEF;
-    border-bottom: 1px solid #81C9C0; 
+    border-bottom: 1px solid #434343; 
     width: 100%;
 }
 #prueba{
