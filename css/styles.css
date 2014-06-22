@@ -85,7 +85,7 @@ body{
     float: none;
     width: 100%;
 }
- nav li a {  
+.menu li a {  
     border-bottom: 1px solid #576979; 
 }
 .menu a:hover, nav a:active {
