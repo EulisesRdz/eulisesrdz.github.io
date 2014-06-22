@@ -82,8 +82,7 @@ body{
     width: 100%;
 }
 .menu a:hover, nav a:active {
-    background-color: #2BBDEF;
-    border-bottom: 1px solid #434343; 
+    border-bottom: 1px solid #2BBDEF; 
     width: 100%;
 }
 #prueba{
