@@ -1,4 +1,0 @@
-eulisesrdz.github.io
-====================
-
-Blog
