@@ -91,7 +91,7 @@ body{
     nav a {  
     text-align: left;  
     width: 100%;  
-    text-indent: 100%;  
+    text-indent: 80px;  
     }  
 .menu a:hover, nav a:active {
     background-color: #0591FF;
