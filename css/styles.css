@@ -86,8 +86,8 @@ body{
     width: 100%;
 }
 .menu a:hover, nav a:active {
-    background-color: #0591FF;
-    border-bottom: 1px solid #576979; 
+    background-color: #2BBDEF;
+    border-bottom: 1px solid #0591FF; 
     width: 100%;
 }
 #prueba{
