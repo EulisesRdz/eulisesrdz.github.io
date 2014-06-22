@@ -87,8 +87,8 @@ body{
 }
 nav li a {  
     border-bottom: 1px solid #576979;
-    width: 100%;  
-} 
+    width: 100%;
+}
 .menu a:hover, nav a:active {
     background-color: #0591FF;
     width: 100%;
