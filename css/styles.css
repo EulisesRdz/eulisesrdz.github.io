@@ -82,6 +82,32 @@ body{
     }  
 }  
 
+@media only screen and (max-width : 480px) {  
+    .menu {  
+        border-bottom: 0;  
+    }  
+    .menu ul {  
+        display: none;  
+        height: auto;  
+    }  
+    .menu a#pull {  
+        display: block;  
+        background-color: #283744;  
+        width: 100%;  
+        position: relative;  
+    }  
+    .menu a#pull:after {  
+        content:"";  
+        background: url('nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        rightright: 15px;  
+        top: 10px;  
+    }  
+}  
+
 
 
 /*@media only screen and (max-width: 610px) {
