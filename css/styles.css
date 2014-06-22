@@ -92,7 +92,7 @@ body{
     nav a {  
         text-align: left;  
         width: 100%;  
-        text-indent: 25px;  
+        text-indent: 50px;  
     }  
 .menu a:hover, nav a:active {
     background-color: #0591FF;
