@@ -63,7 +63,6 @@ body{
 .menu ul {
     display: none;
     height: auto;
-    width: 100%;
 }
 .menu a#pull {
     display: block;
