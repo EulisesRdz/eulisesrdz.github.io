@@ -63,6 +63,7 @@ body{
 .menu ul {
     display: none;
     height: auto;
+    width: 100%;
 }
 .menu a#pull {
     display: block;
@@ -86,7 +87,7 @@ body{
     width: 100%;
 }
  nav li a {  
-        border-bottom: 1px solid #576979;  
+    border-bottom: 1px solid #576979; 
 }
 .menu a:hover, nav a:active {
     background-color: #0591FF;
