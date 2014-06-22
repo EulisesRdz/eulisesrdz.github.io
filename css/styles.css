@@ -40,11 +40,7 @@ body{
     text-decoration: none;
     line-height: 40px;
 }
-.menu li a {
-    box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-}
+
 .menu li:last-child a {
     border-right: 0;
 }
