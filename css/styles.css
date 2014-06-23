@@ -12,6 +12,7 @@ body{
     background: #81C9C0;
     position: relative;
     margin-top: 0px;
+
 }
 .menu:before,
 .menu:after {
@@ -50,7 +51,17 @@ body{
 .menu a#pull {
     display: none;
 }
-
+#home {
+background: #FFFFFF;
+height: 500px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+}
+#logo{
+    margin-top: 130px;
+}
 /* MEDIA QUERY */
 @media only screen and (max-width: 610px) {
 .menu {
@@ -86,7 +97,7 @@ body{
     border-bottom: 1px solid #434343; 
     width: 100%;
 }
-#prueba{
+#logo{
     height: auto;
     width: 90%;
 }
