@@ -54,25 +54,6 @@ body{
 #home{
     height: 645px;
 }
-#about{
-    background-image: url(../images/05.jpg);
-    height: 645px;
-    text-align: center;
-}
-#info{
-    padding: 5%;
-}
-#work{
-    background: #FFFFFF;
-    height: 645px;
-}
-#social{
-    background: red;
-    height: 570px;
-}
-#soc{
-    padding: 10%;
-}
 footer {
     background:#4C4C4C;
     color: #FFFFFF;
