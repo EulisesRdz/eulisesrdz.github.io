@@ -14,7 +14,6 @@ body{
     position: fixed;
     margin-top: 0px;
     width: 100%;
-
 }
 .menu:before,
 .menu:after {
@@ -43,7 +42,6 @@ body{
     text-decoration: none;
     line-height: 40px;
 }
-
 .menu li:last-child a {
     border-right: 0;
 }
@@ -55,6 +53,25 @@ body{
 }
 #home{
     height: 645px;
+}
+#about{
+    background-image: url(../images/05.jpg);
+    height: 645px;
+    text-align: center;
+}
+#info{
+    padding: 5%;
+}
+#work{
+    background: #FFFFFF;
+    height: 645px;
+}
+#social{
+    background: red;
+    height: 570px;
+}
+#soc{
+    padding: 10%;
 }
 footer {
     background:#4C4C4C;
@@ -102,8 +119,22 @@ footer {
     background-color: #2BBDEF;
     width: 100%;
 }
+}
+@media only screen and (max-width: 380px) {
+#home{
+    height: 450px;
+}
+#about{
+    height: 400px;
+}
+#info{
+    text-align: justify;
+}
 #logo{
     height: auto;
     width: 90%;
+}
+#soc{
+    padding: 20%;
 }
 }
