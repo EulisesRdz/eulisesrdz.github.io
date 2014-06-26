@@ -71,10 +71,16 @@ body{
 }
 #info{
     clear: both;
-    padding: 2px;
-    height: 300px;
+    height: auto;
+}
+#img1{
+    margin-left: 2%;
+    padding: 2%;
+}
+h3{
     margin-left: 2%;
     color: #2BBDEF;
+    padding: 2px;
 }
 footer {
     display: table;
