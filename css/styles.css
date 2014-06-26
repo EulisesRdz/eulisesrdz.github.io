@@ -52,7 +52,10 @@ body{
     display: none;
 }
 #home{
-    height: 645px;
+    height: auto;
+}
+#logo{
+    margin-top: 10%;
 }
 #line-l{
     float: left;
@@ -66,18 +69,23 @@ body{
     width: 70%;
     margin-top: 3px;
 }
+#info{
+    clear: both;
+    padding: 2px;
+    height: 300px;
+    margin-left: 2%;
+    color: #2BBDEF;
+}
 footer {
-    background:#C4C4C4;
+    display: table;
+    background:#81C9C0;
     color: #FFFFFF;
     height: 70px;
     text-align: center;
     width: 100%;
 }
-#logo{
-    margin-top: 10%;
-}
 /* MEDIA QUERY */
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 630px) {
 .menu {
     border-bottom: 0;
     position: relative;
@@ -114,5 +122,8 @@ footer {
 #logo{
     height: auto;
     width: 90%;
+}
+footer{
+    background: #434343;
 }
 }
