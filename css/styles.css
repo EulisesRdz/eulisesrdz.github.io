@@ -54,26 +54,37 @@ body{
 #home{
     height: 645px;
 }
+#line-l{
+    float: left;
+    border-bottom: solid 3px #2BBDEF;
+    width: 70%;
+    margin-top: 3%;
+}
+#line-r{
+    float: right;
+    border-bottom: solid 3px #2BBDEF;
+    width: 70%;
+    margin-top: 3px;
+}
 footer {
-    background:#4C4C4C;
+    background:#C4C4C4;
     color: #FFFFFF;
     height: 70px;
     text-align: center;
     width: 100%;
 }
 #logo{
-    margin-top: 130px;
+    margin-top: 10%;
 }
 /* MEDIA QUERY */
 @media only screen and (max-width: 610px) {
 .menu {
     border-bottom: 0;
-    position: fixed;
+    position: relative;
 }
 .menu ul {
     display: none;
     height: auto;
-    top: 40px;
 }
 .menu a#pull {
     display: block;
