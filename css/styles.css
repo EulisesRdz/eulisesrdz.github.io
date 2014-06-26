@@ -56,18 +56,6 @@ body{
 #home{
     height: 645px;
 }
-#about{
-    background: #EEEEEE;
-    height: 640px;
-}
-#work{
-    background: #F7F7F7;
-    height: 640px;
-}
-#social{
-    background: #EEEEEE;
-    height: 640px;
-}
 footer {
     background:#4C4C4C;
     color: #FFFFFF;
