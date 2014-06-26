@@ -120,7 +120,7 @@ footer {
     width: 100%;
 }
 }
-@media only screen and (max-width: 380px) {
+/*@media only screen and (max-width: 380px) {
 #home{
     height: 450px;
 }
@@ -137,4 +137,4 @@ footer {
 #soc{
     padding: 20%;
 }
-}
+}*/
