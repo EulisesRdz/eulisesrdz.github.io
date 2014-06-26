@@ -10,8 +10,10 @@ body{
     top: 0;
     text-align: center;
     background: #81C9C0;
-    position: relative;
+    border-bottom: solid 3px #2BBDEF;
+    position: fixed;
     margin-top: 0px;
+    width: 100%;
 
 }
 .menu:before,
@@ -51,13 +53,27 @@ body{
 .menu a#pull {
     display: none;
 }
-#home {
-background: #FFFFFF;
-height: 500px;
-margin: 0 auto;
-width: 100%;
-max-width: 1920px;
-position: relative;
+#home{
+    height: 645px;
+}
+#about{
+    background: #EEEEEE;
+    height: 640px;
+}
+#work{
+    background: #F7F7F7;
+    height: 640px;
+}
+#social{
+    background: #EEEEEE;
+    height: 640px;
+}
+footer {
+    background:#4C4C4C;
+    color: #FFFFFF;
+    height: 70px;
+    text-align: center;
+    width: 100%;
 }
 #logo{
     margin-top: 130px;
@@ -66,10 +82,12 @@ position: relative;
 @media only screen and (max-width: 610px) {
 .menu {
     border-bottom: 0;
+    position: fixed;
 }
 .menu ul {
     display: none;
     height: auto;
+    top: 40px;
 }
 .menu a#pull {
     display: block;
@@ -94,7 +112,6 @@ position: relative;
 }
 .menu a:hover, nav a:active {
     background-color: #2BBDEF;
-    border-bottom: 1px solid #434343; 
     width: 100%;
 }
 #logo{

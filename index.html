@@ -7,6 +7,7 @@
 	<link href="images/favicon.ico" type="images/x-icon" rel="shortcut icon" />
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/scrolltop.js"></script>
 <script>
 		$(function() {
 			var pull 		= $('#pull');
@@ -28,19 +29,37 @@
 </head>
 <body>
 	<!-- Menu -->
+	<header>
 		<nav class="menu">
 		    <ul class="menu">
-		      	<li><a href="#top">Home</a></li>
+		      	<li><a href="#home">Home</a></li>
 		      	<li><a href="#about">Acerca De</a></li>
-				<li><a href="#work">Proyectos</a></li>
+		      	<li><a href="#work">Trabajos</a></li>
 				<li><a href="#social">Social</a></li> 
 		    </ul>
 		    <a href="#" id="pull">Eulises - Rdz</a>
 		</nav>
+	</header>
 	<!-- Home -->
-	<section id="home" data-type="background" data-speed="10">
-			<center><img id="logo" src="images/logo.png" width="364" height="286" /></center>
-	</section>
-	
+	<div id="home">
+		<center><img id="logo" src="images/logo.png" width="364" height="286" /></center>
+	</div>
+		<!-- About -->
+	<div id="about">
+	<h1><strong>Area De About</strong></h1>
+	</div>
+	<!-- Work -->
+	<div id="work">
+		<h1><strong>Area De Work</strong></h1>
+	</div>
+		<!-- Social -->
+	<div id="social">
+		<h1><strong>Area De Social</strong></h1>
+	</div>
+	<!-- Footer -->
+	<footer>
+		<img src="images/Firma.png" width="100" height="40">
+      <p><p>Copyright &copy; EulisesRdz 2014</p></p>
+	</footer>
 </body>
 </html>
