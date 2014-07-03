@@ -58,13 +58,13 @@ body{
     margin-top: 10%;
 }
 #line-l{
-    float: left;
+    float: right;
     border-bottom: solid 3px #2BBDEF;
     width: 70%;
     margin-top: 3%;
 }
 #line-r{
-    float: right;
+    float: left;
     border-bottom: solid 3px #2BBDEF;
     width: 70%;
     margin-top: 3px;
@@ -77,10 +77,16 @@ body{
     margin-left: 2%;
     padding: 2%;
 }
-h3{
-    margin-left: 2%;
+#tit{
     color: #2BBDEF;
-    padding: 2px;
+    font-size: 20px;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+#social{
+    clear: both;
+    height: auto;
+    background: #F5F6F7;
 }
 footer {
     display: table;
