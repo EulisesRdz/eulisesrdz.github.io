@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,69 +9,47 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/scrolltop.js"></script>
-<script>
-		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
+		<script type="text/javascript" language="javascript" charset="utf-8" src="js/menu.js"></script>
 
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-      $(window).resize(function(){
-            var w = $(window).width();
-            if(w > 320 && menu.is(':hidden')) {
-              menu.removeAttr('style');
-            }
-        });
-		});
-</script>
 </head>
 <body>
-	<!-- Menu -->
-	<header>
-		<nav class="menu">
-		    <ul class="menu">
-		      	<li><a href="">Home</a></li>
-		      	<li><a href="">Acerca De</a></li>
-		      	<li><a href="">Proyectos</a></li>
-				<li><a href="">Contacto</a></li> 
-		    </ul>
-		    <a href="#" id="pull">Eulises - Rdz</a>
+<!-- Menu -->
+	<header id="topnav">
+		<nav>
+			<ul>
+				<li><a href="#home">INICIO</a></li>
+				<li><a href="#contacto">CONTACTO</a></li>
+				<li><a href="#info">ACERCA DE</a></li>
+				<li><a href="#proyectos">PROYECTOS</a></li>
+			</ul>
 		</nav>
+		<a href="#" id="navbtn">Nav Menu</a>        
+			<img src="images/rdz.png">
 	</header>
-	<!-- Home -->
+<!-- Home -->
 	<div id="home">
-		<center><img id="logo" src="images/logo.png" width="364" height="286" /><br></center>
-		<div id="line-l"></div>
-		<div id="line-r"></div>
-		
+	<center>
+		<img id="logo-1" src="images/logo.png">
+	</center>
 	</div>
-	<!-- Info -->
+<!-- Info -->
 	<div id="info">
-	<p id="tit">PROYECTOS REALIZADOS</p>
-		<center>
-		<img id="img1" src="images/prev.jpg" width="200" height="200">
-		<img id="img1" src="images/prev.jpg" width="200" height="200">
-		<img id="img1" src="images/prev.jpg" width="200" height="200">
-		<img id="img1" src="images/prev.jpg" width="200" height="200">
-		</center>
-		<div id="line-l"></div>
-		<div id="line-r"></div>
 	</div>
-	<!-- Social -->
-	<p id="tit">CONTACTO VIA</p>
-	<div id="social">
-		<center>
-			<img id="img2" src="images/Fb.png">
-			<a href="https://twitter.com/EulisesRdz" target="_blank"><img id="img2" src="images/tw.png"></a>
-		</center>
-	</div><br>
-	<!-- Footer -->
-	<footer>
-		<img src="images/Firma.png" width="100" height="40">
-      <p><p>Copyright &copy; 2014</p></p>
-	</footer>
+<!-- Proyectos -->
+	<div id="proyectos">
+	</div>
+<!-- Contacto -->
+	<div id="contacto">
+	<div id="row">
+	<center>
+	<br><br><br><br><br><br><br><br>
+	<p class="txt">CONTÁCTAME VÍA:</p>
+
+		<img id="img2" src="images/Fb.png" alt="Facebook">
+		<img src="" width="30">
+		<a href="https://twitter.com/EulisesRdz" target="_blank"><img id="img2" src="images/tw.png" alt="Twitter"></a>
+	</center>
+	</div>
+	</div>
 </body>
 </html>
