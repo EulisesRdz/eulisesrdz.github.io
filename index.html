@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,50 +5,53 @@
 	<title>Eulises Rodriguez</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="images/favicon.ico" type="images/x-icon" rel="shortcut icon" />
-	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" href="css/styles.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/scrolltop.js"></script>
-		<script type="text/javascript" language="javascript" charset="utf-8" src="js/menu.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
 
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+      $(window).resize(function(){
+            var w = $(window).width();
+            if(w > 320 && menu.is(':hidden')) {
+              menu.removeAttr('style');
+            }
+        });
+		});
+</script>
 </head>
 <body>
-<!-- Menu -->
-	<header id="topnav">
-		<nav>
-			<ul>
-				<li><a href="#home">INICIO</a></li>
-				<li><a href="#contacto">CONTACTO</a></li>
-				<li><a href="#info">ACERCA DE</a></li>
-				<li><a href="#proyectos">PROYECTOS</a></li>
-			</ul>
+	<!-- Menu -->
+		<nav class="menu">
+		    <ul class="menu">
+		      	<li><a href="#top">Home</a></li>
+		      	<li><a href="#about">Acerca De</a></li>
+				<li><a href="#work">Contacto</a></li>
+				<li><a href="#contact">Portafolio</a></li> 
+		    </ul>
+		    <a href="#" id="pull">EulisesRdz</a>
 		</nav>
-		<a href="#" id="navbtn">Nav Menu</a>        
-			<img src="images/rdz.png">
-	</header>
-<!-- Home -->
-	<div id="home">
-	<center>
-		<img id="logo-1" src="images/logo.png">
-	</center>
-	</div>
-<!-- Info -->
-	<div id="info">
-	</div>
-<!-- Proyectos -->
-	<div id="proyectos">
-	</div>
-<!-- Contacto -->
-	<div id="contacto">
-	<div id="row">
-	<center>
-	<br><br><br><br><br><br><br><br>
-	<p class="txt">CONTÁCTAME VÍA:</p>
+	<!-- Home -->
+		<div class="top-home"><br><br><br><br>
+			<center><img id="prueba" src="images/logo.png" width="364" height="286" />
+		</div>
+	<!-- About -->
+		<div class="top-home"><br><br>
+			
+		</div>
+	<!-- Contact -->
+		<div class="top-home"><br><br>
 
-		<img id="img2" src="images/Fb.png" alt="Facebook">
-		<img src="" width="30">
-		<a href="https://twitter.com/EulisesRdz" target="_blank"><img id="img2" src="images/tw.png" alt="Twitter"></a>
-	</center>
-	</div>
-	</div>
+		</div>
+	<!-- Portfolio -->
+		<div class="top-home"><br><br>
+
+		</div>
 </body>
 </html>
