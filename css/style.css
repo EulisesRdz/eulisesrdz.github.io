@@ -395,3 +395,8 @@
 		text-align: center;
 		width: 100%;
 	}
+@media only screen and (max-width: 340px) {
+#logo{
+	width: 30%;
+	height: auto;
+}
