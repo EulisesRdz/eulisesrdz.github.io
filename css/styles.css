@@ -20,6 +20,9 @@ a:hover {
 /* ------------------------------------------
   RESPONSIVE NAV STYLES
 --------------------------------------------- */
+.nombre{
+font-family: 'Pacifico', cursive;
+}
 .nav-collapse ul {
   margin: 0;
   padding: 0;
@@ -111,7 +114,7 @@ header {
   float: left;
 }
 #home{
-  background-image: url(../images/home.jpg);
+  background: #EBEBEB;
   height: auto;
 }
 #logoimg{
