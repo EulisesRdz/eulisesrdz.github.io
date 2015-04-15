@@ -1,8 +1,4 @@
-body, div,
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
-fieldset, form, label, legend, th, td,
-article, aside, figure, footer, header, hgroup, menu, nav, section,
+body, div,h1, h2, h3, h4, h5, h6,p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,fieldset, form, label, legend, th, td,article, aside, figure, footer, header, hgroup, menu, nav, section,
 summary, hgroup {
   margin: 0;
   padding: 0;
@@ -111,7 +107,6 @@ header {
   float: left;
 }
 #home{
- 
 }
 h2{
 font-family: 'Pacifico', cursive;
