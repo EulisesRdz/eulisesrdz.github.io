@@ -73,10 +73,10 @@ body {
   font: normal 100%/1.4 sans-serif;
 }
 section {
-  border-bottom: 1px solid #999;
+  border-bottom: 0px solid #999;
   text-align: center;
-  padding: 100px 0 0;
-  height: 800px;
+  padding: 50px 0 0;
+  height: 600px;
   width: 100%;
 }
 h1 {
@@ -133,6 +133,19 @@ color: #359BBB;
   -moz-animation-delay: 1s; 
   animation-delay: 1s;
 }
+.fila1 > div {
+   display: inline-block;
+   width: 250px;
+   height: 250px;
+   padding: 5px;
+   background: #41C1EE;
+   margin: 10px;
+ }
+#text{
+  color: #FFF;
+  font-style: bold;
+}
+
 /* ------------------------------------------
   MASK
 --------------------------------------------- */
