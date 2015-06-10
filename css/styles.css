@@ -269,6 +269,9 @@ color: #359BBB;
   height: auto;
     }
 h2{font-size: 3em;}
+.separator {  
+  width: 80%;
+}
   }
 }
 }
