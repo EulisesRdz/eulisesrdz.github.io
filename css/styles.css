@@ -264,8 +264,8 @@ color: #359BBB;
 /* MEDIA QUERY */
 @media only screen and (max-width: 380px) {
 #logoimg{
-  padding: 2px;
-  width: 90%;
+  padding: 4px;
+  width: 50%;
   height: auto;
     }
 h2{font-size: 3em;}
