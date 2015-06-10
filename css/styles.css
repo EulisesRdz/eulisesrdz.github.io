@@ -73,11 +73,22 @@ body {
   font: normal 100%/1.4 sans-serif;
 }
 section {
-  border-bottom: 0px solid #999;
   text-align: center;
-  padding: 50px 0 0;
-  height: 600px;
+  background-attachment: fixed;
   width: 100%;
+  position: relative;
+}
+.separator { 
+  margin: 0 auto;
+  border: 1px #ffffff solid; 
+  width: 40%;
+}
+.info{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 110%;
+  text-shadow: #000 2px 2px 5px;
 }
 h1 {
   margin-bottom: .5em;
@@ -91,6 +102,7 @@ p {
 --------------------------------------------- */
 header {
   background: #41C1EE;
+  opacity: 0.8;
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -107,6 +119,24 @@ header {
   float: left;
 }
 #home{
+  background-image: url('../images/fondo3.jpg');
+  background-color: #F0F0F0;
+  background-position: center !important;
+  background-size: cover;
+  height: 600px;
+  padding: 50px 0 0;
+}
+#projects{
+ padding: 50px 0 0;
+ padding-bottom: 80px;
+}
+#contac{
+  background-image: url('../images/fondo2.jpg');
+  background-color: #F0F0F0;
+  background-position: center !important;
+  background-size: cover;
+  height: 500px;
+  padding: 130px 0 0;
 }
 h2{
 font-family: 'Pacifico', cursive;
@@ -115,18 +145,6 @@ color: #359BBB;
 }
 #logoimg{
   padding: 30px 0 0;
-}
-#Descripcion{
-    color:#fff;
-    font-size: 15px;
-    border-radius: 0.5em;
-    background: rgba(39, 40, 34,0.5);
-    box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
-    margin: 0 1% 6em 1em;
-    padding: 1em;
-    text-align: justify;
-    transition: all 0.5s ease;
-    width: 50%;
 }
 .retraso-1{
   -webkit-animation-delay: 1s;
