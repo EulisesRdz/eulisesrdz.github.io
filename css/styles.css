@@ -134,8 +134,6 @@ header {
 .fraseabout{
   font-size: 1.8em;
   font-weight: 400;
-  text-align: right;
-  margin-right: 5em;
 }
 #projects{
  padding: 50px 0 0;
@@ -292,6 +290,10 @@ h2, .titulo{
   margin-right: 1em;
     width: 250px;
     height: 250px;
+}
+.fraseabout{
+  font-size: 1.8em;
+  font-weight: 400;
 }
 }
 @media screen and (max-width: 800px) {
