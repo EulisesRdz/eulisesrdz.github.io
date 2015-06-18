@@ -293,12 +293,6 @@ h2, .titulo{
     width: 250px;
     height: 250px;
 }
-.fraseabout{
-  font-size: 1.8em;
-  font-weight: 400;
-  text-align: center;
-  margin-right: 10px;
-}
 }
 @media screen and (max-width: 800px) {
   h2, .titulo{
