@@ -8,14 +8,6 @@ a:active,
 a:hover {
   outline: 0;
 }
-@-webkit-viewport { width: device-width; }
-@-moz-viewport { width: device-width; }
-@-ms-viewport { width: device-width; }
-@-o-viewport { width: device-width; }
-@viewport { width: device-width; }
-/* ------------------------------------------
-  RESPONSIVE NAV STYLES
---------------------------------------------- */
 .nav-collapse ul {
   margin: 0;
   padding: 0;
@@ -50,20 +42,6 @@ a:hover {
   -o-user-select: none;
   user-select: none;
 }
-@media screen and (min-width: 40em) {
-  .js .nav-collapse {
-    position: relative;
-  }
-  .js .nav-collapse.closed {
-    max-height: none;
-  }
-  .nav-toggle {
-    display: none;
-  }
-}
-/* ------------------------------------------
-  DEMO STYLES
---------------------------------------------- */
 body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -93,13 +71,21 @@ section {
 h1 {
   margin-bottom: .5em;
 }
+h2{
+font-family: 'Pacifico', cursive;
+font-size: 5em;
+color: #359BBB;
+}
+.titulo{
+font-family: 'Pacifico', cursive;
+font-size: 5em;
+color: #359BBB;
+text-shadow: #000 2px 2px 5px;
+}
 p {
   width: 90%;
   margin: 0 auto;
 }
-/* ------------------------------------------
-  FIXED HEADER
---------------------------------------------- */
 header {
   background: #41C1EE;
   opacity: 0.8;
@@ -124,7 +110,32 @@ header {
   background-position: center !important;
   background-size: cover;
   height: 600px;
+  width: 100%;
   padding: 50px 0 0;
+}
+#about{
+  height: 80%;
+  padding: 90px 0 0;
+}
+#frase{
+  background-image: url('../images/fondo1.jpg');
+  background-color: #F0F0F0;
+  background-position: center !important;
+  background-size: cover;
+  height: 500px;
+  color: #ffffff;
+  padding: 140px 0 0;
+  text-shadow: #000000 2px 2px 5px;
+}
+.frasetext{
+  font-size: 6em;
+  margin: 10px;
+}
+.fraseabout{
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: right;
+  margin-right: 5em;
 }
 #projects{
  padding: 50px 0 0;
@@ -137,11 +148,6 @@ header {
   background-size: cover;
   height: 500px;
   padding: 130px 0 0;
-}
-h2{
-font-family: 'Pacifico', cursive;
-font-size: 5em;
-color: #359BBB;
 }
 #logoimg{
   padding: 30px 0 0;
@@ -158,51 +164,41 @@ color: #359BBB;
    padding: 5px;
    background: #41C1EE;
    margin: 10px;
+   border-radius: 160px;
+  -webkit-border-radius: 150px; 
+  -moz-border-radius: 150px; 
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
  }
+ .circular{ 
+  width: 250px; 
+  height: 250px; 
+  border-radius: 150px; 
+}
+.acercade{
+  width: 80%;
+  margin: 0 auto;
+}
+.euli{
+    border-radius: 150px;
+    float: right;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-top: -3em;
+}
+.bio{
+  color: #8A8683;
+  text-align: justify;
+}
 #text{
+  border-radius: 150px;
+  background: #41C1EE;
   color: #FFF;
-  margin-top: -3px;
-}
-
-/* ------------------------------------------
-  MASK
---------------------------------------------- */
-.mask {
-  -webkit-transition: opacity 300ms;
-  -moz-transition: opacity 300ms;
-  transition: opacity 300ms;
-  background: rgba(0,0,0, .5);
-  visibility: hidden;
-  position: fixed;
-  opacity: 0;
-  z-index: 2;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  top: 0;
-}
-.android .mask {
-  -webkit-transition: none;
-  transition: none;
-}
-.js-nav-active .mask {
-  visibility: visible;
-  opacity: 1;
-}
-@media screen and (min-width: 40em) {
-  .mask {
-    display: none !important;
-    opacity: 0 !important;
-  }
-}
-/* ------------------------------------------
-  NAVIGATION STYLES
---------------------------------------------- */
-.fixed {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
+  margin-top: 10px;
 }
 .nav-collapse,
 .nav-collapse * {
@@ -216,7 +212,18 @@ color: #359BBB;
   width: 100%;
   float: left;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+@media screen and (min-width: 50em) {
   .nav-collapse {
     float: right;
     width: auto;
@@ -226,7 +233,7 @@ color: #359BBB;
   float: left;
   width: 100%;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   .nav-collapse li {
     width: auto;
   }
@@ -241,8 +248,7 @@ color: #359BBB;
   width: 100%;
   float: left;
 }
-
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   .nav-collapse a {
     border-left: 1px solid white;
     padding: 1.02em 2em;
@@ -256,28 +262,64 @@ color: #359BBB;
   background: #ca3716;
   padding-left: 2em;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   .nav-collapse ul ul a {
     display: none;
   }
 }
-/* MEDIA QUERY */
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
 #logoimg{
   padding: 4px;
   width: 50%;
   height: auto;
     }
-h2{font-size: 3em;}
+h2, .titulo{
+  font-size: 3em;
+}
 .separator {  
   width: 80%;
 }
+#about{
+  height: 1000px;
+  padding: 90px 0 0;
+}
+.acercade{
+  width: 90%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.euli{
+  margin-right: 1em;
+    width: 250px;
+    height: 250px;
+}
+}
+@media screen and (max-width: 800px) {
+  h2, .titulo{
+    font-size: 4em;
   }
+  .separator {  
+  width: 85%;
 }
+  #about{
+  height: 60%;
+  padding: 90px 0 0;
 }
-/* ------------------------------------------
-  NAV TOGGLE STYLES
---------------------------------------------- */
+.acercade{
+  width: 90%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.euli{
+    width: 250px;
+    height: 250px;
+    margin-left: 1em;
+}
+.frasetext{
+  font-size: 3.8em;
+  margin: 10px;
+}
+  }
 @font-face {
   font-family: "responsivenav";
   src:url("../icons/responsivenav.eot");
@@ -300,12 +342,12 @@ h2{font-size: 3em;}
   float: right;
 }
 .nav-toggle:before {
-  color: #fff; /* Edit this to change the icon color */
-  font: normal 28px/55px "responsivenav"; /* Edit font-size (28px) to change the icon size */
+  color: #fff;
+  font: normal 28px/55px "responsivenav";
   text-transform: none;
   text-align: center;
   position: absolute;
-  content: "\2261"; /* Hamburger icon */
+  content: "\2261";
   text-indent: 0;
   speak: none;
   width: 100%;
@@ -314,5 +356,5 @@ h2{font-size: 3em;}
 }
 .nav-toggle.active:before {
   font-size: 24px;
-  content: "\78"; /* Close icon */
+  content: "\78";
 }
