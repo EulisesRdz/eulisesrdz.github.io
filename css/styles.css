@@ -1,0 +1,188 @@
+body, div,h1, h2, h3, h4, h5, h6,p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,fieldset, form, label, legend, th, td,article, aside, figure, footer, header, hgroup, menu, nav, section,
+summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+.container{
+  width: 95%;
+  max-width: 1000px;
+  margin: auto;
+}
+.menu {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  z-index:1;
+}
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em;
+  text-decoration: none;
+  color: #FFFFFF;
+  float: left;
+}
+.logo > .pa {
+  color: #8a8683;
+  margin: 10px 0;
+}
+.logo > .pa span {
+  color: #349ABA;
+}
+#nav {
+  text-align: right;
+  margin: 10px 0 0 0;
+}
+.navigation {
+  float: right;
+  list-style: none;
+  margin: 14px;
+}
+.navigation li {
+  float: left;
+  padding:0 0 0 50px;
+}
+.navigation > li > a{
+  color: #349ABA;;
+  text-decoration: none;
+
+}
+.navigation li:hover {
+  cursor: pointer;
+  color: #a9d3d0;
+}
+.navigation {
+  cursor: pointer;
+  color: #009eff;
+  font-weight:bold;
+}
+.navigation a li {
+  color: #8A8683;
+  text-decoration: none;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #37302a;
+  background: #fff;
+  font: normal 100%/1.4 sans-serif;
+}
+section {
+  text-align: center;
+  background-attachment: fixed;
+  width: 100%;
+  position: relative;
+}
+.separator { 
+  margin: 0 auto;
+  border: 1px #ffffff solid; 
+  width: 40%;
+}
+.info{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 110%;
+  text-shadow: #000 2px 2px 5px;
+}
+.titulo{
+font-family: 'Exo', sans-serif;
+font-size: 5em;
+color: #359BBB;
+text-shadow: #000 2px 2px 5px;
+}
+#home{
+  background-image: url('../images/01.jpg');
+  background-color: #F0F0F0;
+  background-position: center !important;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  padding: 130px 0 0;
+}
+#about{
+  height: 80%;
+  padding: 90px 0 0;
+}
+h2{
+  font-family: 'Exo', sans-serif;
+  font-size: 5em;
+  color: #359BBB;
+}
+.acercade{
+  width: 80%;
+  margin: 0 auto;
+}
+.euli{
+  border-radius: 150px;
+  float: right;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-top: -3em;
+}
+.bio{
+  color: #8A8683;
+  text-align: justify;
+}
+#contac{
+  background-image: url('../images/fondo2.jpg');
+  background-color: #F0F0F0;
+  background-position: center !important;
+  background-size: cover;
+  height: 500px;
+  padding: 130px 0 0;
+}
+@media screen and (max-width: 800px) {
+.logo{
+  text-align: center;
+  width: 100%;
+  font-size: 2.5em;
+  text-shadow: #000 1px 1px 10px;
+}
+.navigation{
+  margin:5px 0;
+  width: 100%;
+  text-align: center;
+}
+.navigation li{
+  text-align: center;
+  padding:0 0 0 10%;
+}
+#home{
+  padding: 80% 0 0;
+}
+ h2, .titulo{
+    font-size: 3em;
+  }
+  .separator {  
+  width: 85%;
+}
+  #about{
+  height: 60%;
+  padding: 90px 0 0;
+}
+.acercade{
+  width: 90%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.euli{
+    width: 250px;
+    height: 250px;
+    margin-left: 1em;
+}
+.frasetext{
+  font-size: 3.8em;
+  margin: 10px;
+}
+}
