@@ -150,6 +150,28 @@ h2{
   color: #FFFFFF;
   font-size: 1.2em;
 }
+#frase{
+  background-image: url('../images/fondo1.jpg');
+  background-color: #F0F0F0;
+  background-position: center !important;
+  background-size: cover;
+  height: 300px;
+  color: #ffffff;
+  padding: 140px 0 0;
+  text-shadow: #000000 2px 2px 5px;
+}
+.frasetext{
+  font-size: 5em;
+  margin: 10px;
+}
+.fraseabout{
+  font-size: 1.8em;
+  font-weight: 400;
+}
+#portafolio{
+  padding: 50px 0 0;
+  padding-bottom: 80px;
+}
 @media screen and (max-width: 800px) {
 .logo{
   text-align: center;
@@ -169,13 +191,13 @@ h2{
 #home{
   padding: 80% 0 0;
 }
- h2, .titulo{
+h2, .titulo{
     font-size: 3em;
   }
-  .separator {  
+.separator {  
   width: 85%;
 }
-  #about{
+#about{
   height: 60%;
   padding: 90px 0 0;
 }
@@ -192,5 +214,41 @@ h2{
 .frasetext{
   font-size: 3.8em;
   margin: 10px;
+}
+}
+@media screen and (max-width: 505px) {
+.navigation{
+  margin:5px 0;
+  width: 100%;
+  text-align: center;
+}
+.navigation li{
+  font-size: 0.5em;
+  text-align: center;
+  padding:0 0 0 13%;
+}
+.frasetext{
+  font-size: 3em;
+  margin: 10px;
+}
+}
+@media screen and (max-width: 350px) {
+.navigation{
+  margin:5px 0;
+  width: 100%;
+  text-align: center;
+}
+.navigation li{
+  font-size: 0.5em;
+  text-align: center;
+  padding:0 0 0 10%;
+}
+.h3{
+  color: #FFFFFF;
+  font-size: 1.8em;
+}
+.txt{
+  color: #FFFFFF;
+  font-size: 1em;
 }
 }
