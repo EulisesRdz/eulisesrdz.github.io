@@ -49,13 +49,12 @@ a:hover {
   padding:0 0 0 50px;
 }
 .navigation > li > a{
-  color: #349ABA;;
+  color: #349ABA;
   text-decoration: none;
-
 }
-.navigation li:hover {
+.navigation >li >a:hover {
   cursor: pointer;
-  color: #a9d3d0;
+  color: #03A9F4;
 }
 .navigation {
   cursor: pointer;
@@ -113,7 +112,7 @@ text-shadow: #000 2px 2px 5px;
 }
 h2{
   font-family: 'Exo', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   color: #359BBB;
 }
 .acercade{
@@ -170,7 +169,85 @@ h2{
 }
 #portafolio{
   padding: 50px 0 0;
-  padding-bottom: 80px;
+  padding-bottom: 150px;
+  height: 80%;
+}
+#port{
+  width: 95%;
+  max-width: 1000px;
+  margin: auto;
+}
+.view {
+  width: 220px;
+  height: 220px;
+  margin: 10px 13px 10px 13px;
+  overflow: hidden;
+  border-radius: 3%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  cursor: default;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.view:hover{
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5); 
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .5); 
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+.mask {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.view img {
+  display: block;
+  position: relative
+}
+.view h2 {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 75px;
+}
+.v-f img {
+  transition: all 0.2s linear;
+  width: 220px;
+  height: 220px;
+}
+.v-f .mask {
+  opacity: 0;
+  background-color: rgba(33, 38, 46, 0.7);
+  transition: all 0.3s ease-in-out;
+}
+.v-f h2 {
+  transform: translateY(-100px);
+  opacity: 0;
+  font-family: sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.v-f:hover img { 
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  -o-filter: blur(3px);
+  transform: scale(1.1);
+} 
+.v-f:hover .mask { 
+  opacity: 1;
+}
+.v-f:hover h2{
+  opacity: 1;
+  transform: translateY(0px);
 }
 @media screen and (max-width: 800px) {
 .logo{
@@ -216,7 +293,10 @@ h2, .titulo{
   margin: 10px;
 }
 }
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 553px) {
+.logo{
+  text-shadow: .4px .4px 8px #000000;
+}
 .navigation{
   margin:5px 0;
   width: 100%;
