@@ -46,7 +46,7 @@ a:hover {
 }
 .navigation li {
   float: left;
-  padding:0 0 0 50px;
+  padding:0 0 0 30px;
 }
 .navigation > li > a{
   color: #349ABA;
@@ -59,7 +59,6 @@ a:hover {
 .navigation {
   cursor: pointer;
   color: #009eff;
-  font-weight:bold;
 }
 .navigation a li {
   color: #8A8683;
@@ -127,7 +126,7 @@ h2{
   height: 300px;
   margin-bottom: 1em;
   margin-left: 1em;
-  margin-top: -3em;
+  margin-top: -1em;
 }
 .bio{
   color: #8A8683;
@@ -182,7 +181,7 @@ h2{
   height: 220px;
   margin: 10px 13px 10px 13px;
   overflow: hidden;
-  border-radius: 3%;
+  border-radius: 4%;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -192,15 +191,14 @@ h2{
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 .view:hover{
-  border-radius: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, .5); 
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .5); 
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 }
 .mask {
+  border-radius: 4%;
   width: 220px;
   height: 220px;
-  border-radius: 50%;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -284,9 +282,9 @@ h2, .titulo{
   margin-right: 1em;
 }
 .euli{
-    width: 250px;
-    height: 250px;
-    margin-left: 1em;
+  width: 250px;
+  height: 250px;
+  margin-left: 1em;
 }
 .frasetext{
   font-size: 3.8em;
