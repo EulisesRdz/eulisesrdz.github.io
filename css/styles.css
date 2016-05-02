@@ -33,7 +33,7 @@ a:hover {
   margin: 10px 0;
 }
 .logo > .pa span {
-  color: #349ABA;
+  color: #009587;
 }
 #nav {
   text-align: right;
@@ -49,12 +49,12 @@ a:hover {
   padding:0 0 0 30px;
 }
 .navigation > li > a{
-  color: #349ABA;
+  color: #26A69A;
   text-decoration: none;
 }
 .navigation >li >a:hover {
   cursor: pointer;
-  color: #03A9F4;
+  color: #009587;
 }
 .navigation {
   cursor: pointer;
@@ -85,7 +85,7 @@ section {
 }
 .info{
   font-family: sans-serif;
-  font-weight: bold;
+  
   color: #FFFFFF;
   font-size: 110%;
   text-shadow: #000 2px 2px 5px;
@@ -93,7 +93,7 @@ section {
 .titulo{
 font-family: 'Exo', sans-serif;
 font-size: 5em;
-color: #359BBB;
+color: #009587;
 text-shadow: #000 2px 2px 5px;
 }
 #home{
@@ -112,7 +112,7 @@ text-shadow: #000 2px 2px 5px;
 h2{
   font-family: 'Exo', sans-serif;
   font-size: 4em;
-  color: #359BBB;
+  color: #009587;
 }
 .acercade{
   width: 80%;
@@ -176,76 +176,40 @@ h2{
   max-width: 1000px;
   margin: auto;
 }
-.view {
-  width: 220px;
-  height: 220px;
+#card {
+  width: 230px;
+  height: 270px;
   margin: 10px 13px 10px 13px;
   overflow: hidden;
-  border-radius: 4%;
   position: relative;
   display: inline-block;
   text-align: center;
-  cursor: default;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  background: #FAFAFA;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
 }
-.view:hover{
-  box-shadow: 0 0 5px rgba(0, 0, 0, .5); 
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .5); 
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
-}
-.mask {
-  border-radius: 4%;
-  width: 220px;
-  height: 220px;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-}
-.view img {
-  display: block;
-  position: relative
-}
-.view h2 {
-  text-transform: uppercase;
-  color: #FFFFFF;
+.imgtit {
+  line-height: 40px;
+  height: 40px;
+  color: #009587;
+  background: #eeeeee;
+  font-weight: 300;
   text-align: center;
-  position: relative;
-  font-size: 15px;
-  font-family: sans-serif;
-  margin-top: 75px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
 }
-.v-f img {
-  transition: all 0.2s linear;
-  width: 220px;
-  height: 220px;
+::-webkit-scrollbar{
+    width: 5px;
+    background: #ddd;
 }
-.v-f .mask {
-  opacity: 0;
-  background-color: rgba(33, 38, 46, 0.7);
-  transition: all 0.3s ease-in-out;
+ 
+::-webkit-scrollbar-thumb {
+    background: #444;
+    cursor: pointer;
 }
-.v-f h2 {
-  transform: translateY(-100px);
-  opacity: 0;
-  font-family: sans-serif;
-  transition: all 0.2s ease-in-out;
-}
-.v-f:hover img { 
-  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -ms-filter: blur(3px);
-  -o-filter: blur(3px);
-  transform: scale(1.1);
-} 
-.v-f:hover .mask { 
-  opacity: 1;
-}
-.v-f:hover h2{
-  opacity: 1;
-  transform: translateY(0px);
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(150,150,150,0.8);
+    cursor: pointer;
 }
 @media screen and (max-width: 800px) {
 .logo{
