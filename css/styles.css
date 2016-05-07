@@ -300,3 +300,12 @@ h2, .titulo{
   font-size: 1em;
 }
 }
+@media screen and (max-width: 355px) {
+.navigation{
+  margin:5px 0;
+  width: 100%;
+}
+.navigation li{
+  font-size: 0.5em;
+}
+}
