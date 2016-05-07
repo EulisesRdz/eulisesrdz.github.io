@@ -177,8 +177,8 @@ h2{
   margin: auto;
 }
 #card {
-  width: 230px;
-  height: 270px;
+  width: 220px;
+  height: 250px;
   margin: 10px 13px 10px 13px;
   overflow: hidden;
   position: relative;
@@ -186,6 +186,10 @@ h2{
   text-align: center;
   background: #009587;
   box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+  -webkit-filter: blur(1px) grayscale(90%);
+}
+#card:hover{
+  -webkit-filter: contrast(1);
 }
 .imgtit {
   line-height: 30px;
