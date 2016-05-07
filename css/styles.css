@@ -18,7 +18,7 @@ a:hover {
   top: 0px;
   width: 100%;
   height: auto;
-  background-color: #ffffff;
+  background: #ffffff;
   z-index:1;
 }
 .logo {
@@ -55,6 +55,8 @@ a:hover {
 .navigation >li >a:hover {
   cursor: pointer;
   color: #009587;
+  background: #F9F9F9;
+  border-radius: 10%;
 }
 .navigation {
   cursor: pointer;
@@ -97,7 +99,7 @@ color: #009587;
 text-shadow: #000 2px 2px 5px;
 }
 #home{
-  background-image: url('../images/01.jpg');
+  background-image: url('../images/00.jpg');
   background-color: #F0F0F0;
   background-position: center !important;
   background-size: cover;
@@ -132,24 +134,8 @@ h2{
   color: #8A8683;
   text-align: justify;
 }
-#contac{
-  background-image: url('../images/fondo2.jpg');
-  background-color: #F0F0F0;
-  background-position: center !important;
-  background-size: cover;
-  height: 500px;
-  padding: 130px 0 0;
-}
-.h3{
-  color: #FFFFFF;
-  font-size: 2em;
-}
-.txt{
-  color: #FFFFFF;
-  font-size: 1.2em;
-}
 #frase{
-  background-image: url('../images/fondo1.jpg');
+  background-image: url('../images/02.jpg');
   background-color: #F0F0F0;
   background-position: center !important;
   background-size: cover;
@@ -201,6 +187,22 @@ h2{
   font-size: 17px;
   font-family: 'Roboto', sans-serif;
 }
+#contac{
+  background-image: url('../images/fondo2.jpg');
+  background-color: #F0F0F0;
+  background-position: center !important;
+  background-size: cover;
+  height: 500px;
+  padding: 130px 0 0;
+}
+.h3{
+  color: #FFFFFF;
+  font-size: 2em;
+}
+.txt{
+  color: #FFFFFF;
+  font-size: 1.2em;
+}
 ::-webkit-scrollbar{
     width: 5px;
     background: #ddd;
@@ -231,19 +233,23 @@ h2{
 }
 @media screen and (max-width: 800px) {
 .logo{
+  margin-top: -10px;
   text-align: center;
   width: 100%;
-  font-size: 2.5em;
-  text-shadow: #000 1px 1px 10px;
+  font-size: 3em;
 }
 .navigation{
   margin:5px 0;
-  width: 100%;
-  text-align: center;
+  float:left;
+  left:50%;
+  list-style-type:none;
+  padding:0;
+  position:relative;
 }
 .navigation li{
-  text-align: center;
-  padding:0 0 0 10%;
+ float:left;
+ position:relative;
+ right:50%;
 }
 #home{
   padding: 80% 0 0;
@@ -273,35 +279,17 @@ h2, .titulo{
   margin: 10px;
 }
 }
-@media screen and (max-width: 553px) {
-.logo{
-  text-shadow: .4px .4px 8px #000000;
-}
-.navigation{
-  margin:5px 0;
-  width: 100%;
-  text-align: center;
-}
-.navigation li{
-  font-size: 0.5em;
-  text-align: center;
-  padding:0 0 0 13%;
-}
+@media screen and (max-width: 368px) {
 .frasetext{
   font-size: 3em;
   margin: 10px;
 }
-}
-@media screen and (max-width: 350px) {
 .navigation{
   margin:5px 0;
   width: 100%;
-  text-align: center;
 }
 .navigation li{
-  font-size: 0.5em;
-  text-align: center;
-  padding:0 0 0 10%;
+  font-size: 0.8em;
 }
 .h3{
   color: #FFFFFF;
@@ -312,44 +300,3 @@ h2, .titulo{
   font-size: 1em;
 }
 }
-
-
-@font-face {
-    font-family: 'icomoon';
-    src:    url('../icons/icomoon.eot?t0d07g');
-    src:    url('../icons/icomoon.eot?t0d07g#iefix') format('embedded-opentype'),
-        url('../icons/icomoon.ttf?t0d07g') format('truetype'),
-        url('../icons/icomoon.woff?t0d07g') format('woff'),
-        url('../icons/icomoon.svg?t0d07g#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-home2:before {
-    content: "\e900";
-}
-.icon-profile:before {
-    content: "\e901";
-}
-.icon-folder-open:before {
-    content: "\e902";
-}
-.icon-user:before {
-    content: "\e903";
-}
-
