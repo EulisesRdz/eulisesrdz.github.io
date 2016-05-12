@@ -1,4 +1,4 @@
-eulisesrdz  -  v2.2@import url(http://fonts.googleapis.com/css?family=Satisfy:400,700);
+@import url(http://fonts.googleapis.com/css?family=Satisfy:400,700);
 body, div,h1, h2, h3, h4, h5, h6,p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,fieldset, form, label, legend, th, td,article, aside, figure, footer, header, hgroup, menu, nav, section,
 summary, hgroup {
   margin: 0;
@@ -214,6 +214,9 @@ h2{
   letter-spacing: 2px;
   text-transform:capitalize;
   font-size: 1.5em;
+  color: #8A8683;
+}
+.text-skill{
   color: #8A8683;
 }
 progress {
