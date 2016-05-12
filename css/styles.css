@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy:400,700);
 body, div,h1, h2, h3, h4, h5, h6,p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,fieldset, form, label, legend, th, td,article, aside, figure, footer, header, hgroup, menu, nav, section,
 summary, hgroup {
   margin: 0;
@@ -55,8 +56,6 @@ a:hover {
 .navigation >li >a:hover {
   cursor: pointer;
   color: #009587;
-  background: #F9F9F9;
-  border-radius: 10%;
 }
 .navigation {
   cursor: pointer;
@@ -87,16 +86,15 @@ section {
 }
 .info{
   font-family: sans-serif;
-  
   color: #FFFFFF;
   font-size: 110%;
   text-shadow: #000 2px 2px 5px;
 }
 .titulo{
-font-family: 'Exo', sans-serif;
-font-size: 5em;
-color: #009587;
-text-shadow: #000 2px 2px 5px;
+  font-family: 'Exo', sans-serif;
+  font-size: 5em;
+  color: #009587;
+  text-shadow: #000 2px 2px 5px;
 }
 #home{
   background-image: url('../images/00.jpg');
@@ -149,8 +147,10 @@ h2{
   margin: 10px;
 }
 .fraseabout{
+  font-family: 'Satisfy';
+  font-weight:100;
+  text-transform:capitalize;
   font-size: 1.8em;
-  font-weight: 400;
 }
 #portafolio{
   padding: 50px 0 0;
@@ -203,18 +203,70 @@ h2{
   color: #FFFFFF;
   font-size: 1.2em;
 }
+#main-skill{
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+.skill{
+  font-family: 'Satisfy';
+  font-weight:100;
+  letter-spacing: 2px;
+  text-transform:capitalize;
+  font-size: 1.5em;
+  color: #8A8683;
+}
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.progress {
+  height: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: #F1F1F1;;
+}
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #009688;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+       -o-transition: width .6s ease;
+          transition: width .6s ease;
+}
+.webdesign{
+  width: 90%;
+}
+.marketing{
+  width: 80%;
+}
+.programmer{
+  width: 85%;
+}
+.webdev{
+  width: 90%;
+}
+.desandillus{
+  width: 80%;
+}
 ::-webkit-scrollbar{
     width: 5px;
     background: #ddd;
 }
  
 ::-webkit-scrollbar-thumb {
-    background: #444;
+    background: #009688;
     cursor: pointer;
 }
  
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(150,150,150,0.8);
+    background: rgba(0,150,136,0.8);
     cursor: pointer;
 }
 ::-webkit-scrollbar{
@@ -223,12 +275,12 @@ h2{
 }
  
 ::-webkit-scrollbar-thumb {
-    background: #444;
+    background: #009688;
     cursor: pointer;
 }
  
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(150,150,150,0.8);
+    background: rgba(0,150,136,0.8);
     cursor: pointer;
 }
 @media screen and (max-width: 800px) {
