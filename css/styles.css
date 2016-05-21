@@ -157,37 +157,37 @@ h2{
   padding-bottom: 150px;
   height: 80%;
 }
-#port{
+#gallery{
   width: 95%;
   max-width: 1000px;
   margin: auto;
 }
 #card {
   width: 220px;
-  height: 250px;
+  height: 220px;
+  box-sizing: border-box;
   margin: 10px 13px 10px 13px;
   overflow: hidden;
   position: relative;
   display: inline-block;
-  text-align: center;
-  background: #009587;
-  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+  border: .2em solid rgba(1,149,135, .5);
   -webkit-filter: blur(1px) grayscale(90%);
   filter: blur(1px) grayscale(90%);
+  cursor: pointer;
 }
 #card:hover{
+  border: .2em solid #019587;
+  border-radius: 5%;
   -webkit-filter: contrast(1);
   filter: contrast(1);
 }
-.imgtit {
-  line-height: 25px;
-  height: 40px;
-  color: #eeeeee;
-  background: #009587;
-  font-weight: 300;
-  text-align: center;
-  font-size: 17px;
-  font-family: 'Roboto', sans-serif;
+#card img{
+  width: 100%;
+  display: block;
+  transition: all .2s;
+}
+#card img:hover{
+  transform: scale(1.2) rotate(-5deg);
 }
 #contac{
   background-image: url('../images/fondo2.jpg');
