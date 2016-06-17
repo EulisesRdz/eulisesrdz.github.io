@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Eulises RodriG</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="images/icon.ico" type="images/x-icon" rel="shortcut icon" />
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
-    <script src="js/responsive-nav.js"></script>
-  </head>
-  <body>
-    <div class="menu">
-    <div class="container">
-    <a href=" " class="logo"><p class="pa"><span>E</span>ulises<span>R</span>odri<span>G</span></p></a>
-        <div id="nav">
-          <ul class="navigation">
-          <li><a href="#home" data-scroll>Home</a></li>
-          <li><a href="#about" data-scroll>About Me</a></li>
-          <li><a href="#portafolio" data-scroll>Portfolio</a></li>
-          <li><a href="#contac" data-scroll>Contact</a></li>
-          </ul>
-        </div>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Eulises Rodriguez</title>
+  <link href="images/icon.ico" type="images/x-icon" rel="shortcut icon" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
+  </script>
+</head>
+<body>
+<div class="navbar-fixed">
+  <nav class="menu" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" class="brand-logo"><span>E</span>ulises<span>R</span>odri<span>G</span></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#port">Portfolio</a></li>
+        <li><a href="#contactme">Contact</a></li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+        <li class="nav-icon">EulisesRdz</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#port">Portfolio</a></li>
+        <li><a href="#contactme">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-    </div>
-    <section id="home">
+  </nav>
+  </div>
+
+      <section id="home" class="section scrollspy">
       <img id="logoimg" class="animated zoomIn" src="images/logo.png" width="250" height="250" />
       <div class="retraso-1 animated fadeInDown">
       <h2 class="titulo">Eulises Rodriguez</h2><br>
       <div class="separator"></div>
         <p class="info">Web Developer / Programmer / Designer &amp; Illustrator / Marketing</p>
-      <div class="separator"></div></div>
+      <div class="separator"></div>
     </section>
-    <section id="about">
+
+    <section id="about" class="section scrollspy">
     <div class="container">
       <div class="retraso-1 animated fadeInDown">
-      <h2>About Me</h2><br><br>
+      <h2 id="aboutme" class="section scrollspy">About Me</h2><br><br>
       <div class="acercade">
-      <img class="euli" src="images/2.jpg">
-      <p class="bio">Soy un joven inquieto por saber más acerca de las últimas tendencias tecnológicas de la actualidad, apasionado por el desarrollo web, programacion, marketing, diseño de interfaces y experiencia de usuario entre muchas cosas mas, ademas todo lo relacionado con la tecnologia y telecomunicaciones. Me encanta mucho leer todo tipo de lectura, escuchar musica, futbol y otros tipos de deporte son algunos de mis pasatiempos. Una cosa que me caracteriza son las ganas que tengo de de aprender mucho y realizar las cosas con tranquilidad para que sean perfectas.</br></br>Me consideró una persona inteligente y capaz de resolver los problemas que se presentan, tengo la capacidad de entender y analizar las cosas, siempre pongo mucho empeño en las cosas que me interesan, mi meta principal es superar mis propios límites. Me gusta disfrutar de la vida de sus paisajes asi como de su naturaleza.</br></br>Un poco de lo que eh aprendido es la reparación de equipos de cómputo, así mismo como dar mantenimiento preventivo y correctivo a los equipos de cómputo. En mi formacion academica obtuve conocimientos más a fondo de la programación, redes, electronica, diseño y desarrollo web, y me considero una persona autodidacta me gusta estar aprendiendo constantemente y practicar mucho el desarrollo web ya sea front-end o back-end, y en ratos libres practico la edicion de video y animaciones.</br></br></br>
+      <p class="bio">Soy un joven inquieto por saber más acerca de las últimas tendencias tecnológicas de la actualidad, apasionado por el desarrollo web, programacion, marketing, diseño de interfaces y experiencia de usuario entre muchas cosas mas, ademas todo lo relacionado con la tecnologia y telecomunicaciones. Me encanta mucho leer todo tipo de lectura, escuchar musica, futbol y otros tipos de deporte son algunos de mis pasatiempos. Una cosa que me caracteriza son las ganas que tengo de de aprender mucho y realizar las cosas con tranquilidad para que sean perfectas.</br></br>Me consideró una persona inteligente y capaz de resolver los problemas que se presentan, tengo la capacidad de entender y analizar las cosas, siempre pongo mucho empeño en las cosas que me interesan, mi meta principal es superar mis propios límites. Me gusta disfrutar de la vida de sus paisajes asi como de su naturaleza.</br></br>Un poco de lo que eh aprendido es la reparación de equipos de cómputo, así mismo como dar mantenimiento preventivo y correctivo a los equipos de cómputo. En mi formacion academica obtuve conocimientos más a fondo de la programación, redes, electronica, diseño y desarrollo web, y me considero una persona autodidacta me gusta estar aprendiendo constantemente y practicar mucho el desarrollo web ya sea front-end o back-end, y en ratos libres practico la edicion de video y animaciones.
+</br></br></br>
       </p>
       </div>
       <center><p class="skill">- My Skill -</p></center><br>
@@ -64,17 +83,20 @@
             <div class="progress-bar desandillus" role="progressbar"></div>
         </div>
       </div>
-      </div></div>
-    </section><br><br><br>
-    <section id="frase">
-    <div class="container">
-    <p class="frasetext animated fadeInDown">" Everyday's a day less "</p>
-    <p class="fraseabout retraso-1 animated fadeInDown">- Eulises Rodríguez</p>
+      </div>
     </div>
     </section>
-    <section id="portafolio">
+
+    <section id="frase">
+    <div class="container">
+    <p class="frasetext animated fadeInDown">"Everyday's a day less"</p>
+    <p class="fraseabout retraso-1 animated fadeInDown">- EulisesRodríguez</p>
+    </div>
+    </section>
+
+    <section id="portfolio">
       <div class="animated fadeInDown">
-      <h2>Portfolio</h2><br><br>
+      <h2 id="port" class="section scrollspy">Portfolio</h2><br><br>
       <div id="gallery">
         <div id="card"><img src="images/portfolio/rdz.jpg"/></div>
         <div id="card"><img src="images/portfolio/db.jpg"/></div>
@@ -82,18 +104,16 @@
         <div id="card"><img src="images/portfolio/smle.jpg"/></div>
       </div>
     </section><br><br><br>
-    <section id="contac">
+    
+    <section id="contact" class="section scrollspy">
       <div class="retraso-1 animated fadeInDown">
-      <h2 class="titulo">Contact</h2><br><br><br>
+      <h2 id="contactme" class="section scrollspy">Contact</h2><br>
       <h3 class="h3">I can write to email echev7@gmail.com</h3>
       <p class="txt">You can also find me on the following social networks.</p><br>
-      <a target="_blank" href="https://www.facebook.com/ERodriiiGuez"><img width="70" height="70" src="images/social/fb-h.png" onMouseOver="this.src='images/social/fb.png';" onMouseOut="this.src='images/social/fb-h.png';"></a>
-      <a target="_blank" href="https://twitter.com/EulisesRdz"><img width="70" height="70" src="images/social/tw-h.png" onMouseOver="this.src='images/social/tw.png';" onMouseOut="this.src='images/social/tw-h.png';"></a>
-      <a target="_blank" href="https://www.instagram.com/eulisesrdz"><img width="70" height="70" src="images/social/instagram-h.png" onMouseOver="this.src='images/social/instagram.png';" onMouseOut="this.src='images/social/instagram-h.png';"></a>
+      <a target="_blank" href="https://www.facebook.com/ERodriiiGuez"><img width="70" height="70" src="images/social/fb-h.png"></a>
+      <a target="_blank" href="https://twitter.com/EulisesRdz"><img width="70" height="70" src="images/social/tw-h.png"></a>
+      <a target="_blank" href="https://www.instagram.com/eulisesrdz"><img width="70" height="70" src="images/social/instagram-h.png"></a>
       </div>
     </section>
-    <script src="js/fastclick.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js/fixed-responsive-nav.js"></script>
   </body>
 </html>

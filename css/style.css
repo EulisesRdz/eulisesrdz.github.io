@@ -1,0 +1,257 @@
+@import 'https://fonts.googleapis.com/css?family=Exo|Merienda+One|Satisfy|Stalemate';
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #37302a;
+  background: #fff;
+  font: normal 100%/1.4 sans-serif;
+}
+.right a, nav .brand-logo {
+  color: #8a8683;
+}
+.nav-icon{
+  padding: 10%;
+  background: #009587;
+  text-align: center;
+  font-family: 'Stalemate', cursive;
+  font-size: 3em;
+}
+.right a:hover {
+  color: #fff;
+}
+.menu{
+  background: white;
+}
+.menu li:hover{
+  background: #009587;
+}
+#nav-mobile li a{
+  font-size: 16px;
+}
+#nav-mobile li a:hover{
+  background: #F3F3F3;
+  color: #009587;
+}
+.button-collapse {
+  color: #009587;
+}
+#logo-container {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em;
+  text-decoration: none;
+  float: left;
+}
+.brand-logo {
+  color: #8a8683;
+  margin: 5px;
+}
+.brand-logo > span {
+  color: #009587;
+}
+section {
+  text-align: center;
+  background-attachment: fixed;
+  width: 100%;
+  position: relative;
+}
+#home{
+  background: url(../images/00.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #F0F0F0;
+  width: 100%;
+  padding: 80px 0 80px;
+}
+.separator { 
+  margin: 0 auto;
+  border: 1px #ffffff solid; 
+  width: 50%;
+}
+.info{
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  text-shadow: #000 2px 2px 5px;
+}
+.titulo{
+  font-family: 'Merienda One', cursive;
+  font-size: 4.5em;
+  color: #009587;
+  text-shadow: #000 2px 2px 5px;
+}
+#about{
+  height: 80%;
+  padding: 120px 0 120px;
+}
+h2{
+  font-family: 'Merienda One', cursive;
+  font-size: 4em;
+  color: #009587;
+}
+.acercade{
+  width: 90%;
+  margin: 0 auto;
+}
+.bio{
+  font-size: 1.1em;
+  color: #8A8683;
+  text-align: justify;
+}
+#main-skill{
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+.skill{
+  font-family: 'Satisfy';
+  font-weight:100;
+  letter-spacing: 2px;
+  text-transform:capitalize;
+  font-size: 1.5em;
+  color: #8A8683;
+}
+.text-skill{
+  color: #8A8683;
+}
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.progress {
+  height: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: #F1F1F1;;
+}
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #009688;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+       -o-transition: width .6s ease;
+          transition: width .6s ease;
+}
+.webdesign{
+  width: 90%;
+}
+.marketing{
+  width: 80%;
+}
+.programmer{
+  width: 85%;
+}
+.webdev{
+  width: 90%;
+}
+.desandillus{
+  width: 80%;
+}
+#frase{
+  background: url(../images/01.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #F0F0F0;
+  color: #ffffff;
+  padding: 50px 0 50px;
+  text-shadow: #000000 2px 2px 5px;
+}
+.frasetext{
+  font-family: 'Exo', sans-serif;
+  font-size: 4em;
+  text-transform:capitalize;
+}
+.fraseabout{
+  font-family: 'Stalemate', cursive;
+  font-weight:100;
+  text-transform:capitalize;
+  font-size: 3em;
+}
+#portfolio{
+  height: 80%;
+  padding: 120px 0 120px;
+}
+#gallery{
+  width: 95%;
+  max-width: 1000px;
+  margin: auto;
+}
+#card {
+  width: 220px;
+  height: 220px;
+  box-sizing: border-box;
+  margin: 10px 13px 10px 13px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  border: .2em solid rgba(1,149,135, .5);
+  -webkit-filter: blur(1px) grayscale(90%);
+  filter: blur(1px) grayscale(90%);
+  cursor: pointer;
+}
+#card:hover{
+  border: .2em solid #019587;
+  border-radius: 5%;
+  -webkit-filter: contrast(1);
+  filter: contrast(1);
+}
+#card img{
+  width: 100%;
+  display: block;
+  transition: all .2s;
+}
+#card img:hover{
+  transform: scale(1.2) rotate(-5deg);
+}
+#contact{
+  background: url(../images/02.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #F0F0F0;
+  padding: 120px 0 120px;
+}
+.h3{
+  color: #FFFFFF;
+  font-size: 2em;
+}
+.txt{
+  color: #FFFFFF;
+  font-size: 1.2em;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: #ddd;
+}
+::-webkit-scrollbar-thumb {
+    background: #009688;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,150,136,0.8);
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background: #ddd;
+}
+::-webkit-scrollbar-thumb {
+    background: #009688;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,150,136,0.8);
+    cursor: pointer;
+}
