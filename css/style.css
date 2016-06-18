@@ -95,6 +95,48 @@ h2{
   width: 90%;
   margin: 0 auto;
 }
+.euli{
+  float: right;
+  position: relative;
+  width: 300px;
+  height: 220px;
+  margin-left: 1em;
+  margin-top: -1em;
+  margin-bottom:  -2.5em;
+}
+.box {
+  display: inline-block;
+  position: relative;
+  top: 5vh;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 0.35rem;
+}
+.box-inner {
+  padding: .5rem;
+}
+.box-img img {
+  -webkit-transform: translateY(-6.5rem);
+          transform: translateY(-6.5rem);
+  margin-bottom: 2rem;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.box-content {
+  margin-top: -8rem;
+}
+.name {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: .5rem;
+  color: #607D8B;
+}
+.title {
+  margin-top: -8px;
+  color: #aaa;
+}
 .bio{
   font-size: 1.1em;
   color: #8A8683;
@@ -194,25 +236,29 @@ progress {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  border: .2em solid rgba(1,149,135, .5);
-  -webkit-filter: blur(1px) grayscale(90%);
-  filter: blur(1px) grayscale(90%);
   cursor: pointer;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  box-shadow: 0.3px 0.3px 0.3px 1px rgba(0, 0, 0, 0.2);
 }
 #card:hover{
-  border: .2em solid #019587;
-  border-radius: 5%;
-  -webkit-filter: contrast(1);
-  filter: contrast(1);
-}
+    box-shadow: 0 6px 20px #AFAFAF;
+    cursor: pointer;
+    -webkit-filter: blur(0px);
+    filter: blur(0px) contrast(1);
+  }
 #card img{
-  width: 100%;
-  display: block;
-  transition: all .2s;
-}
+    width: 220px;
+    height: 220px;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    transition: all .2s;
+  }
 #card img:hover{
-  transform: scale(1.2) rotate(-5deg);
-}
+    filter: contrast(1);
+    -webkit-filter: contrast(1);
+    transform: scale(1.2);
+  }
 #contact{
   background: url(../images/02.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -254,4 +300,15 @@ progress {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0,150,136,0.8);
     cursor: pointer;
+}
+@media screen and (max-width: 560px) {
+  .box{
+    top:10vh;
+  }
+  .euli{
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: -10px;
+  }
 }
