@@ -281,13 +281,14 @@ div.social li {
   margin: 0px 2px;
   height: 55px;
   width: 55px;
-  font-size: 2.5em;
-  color: rgb(255,255,255);
+  font-size: 2.3em;
+  padding: 3px;
+  color: #555555;
   border-radius: 10em;
-  background: white;
+  background: #EEEEEE;
 }
 div.social li.fb, div.social li.twt, div.social li.insta{
-  color: #E3E2E7;
+  color: #555555;
 }
 div.social li.fb:hover {color:#3A539B;}
 div.social li.twt:hover {color:#4099FF;}
