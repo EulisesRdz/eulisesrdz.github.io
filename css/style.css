@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Exo|Merienda+One|Satisfy|Stalemate|Megrim';
+@import 'https://fonts.googleapis.com/css?family=Exo|Merienda+One|Satisfy|Stalemate|Megrim|Poiret+One';
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 @font-face {
   font-family: "untitled-font-1";
@@ -58,7 +58,7 @@ body {
   background: #009587;
   color: rgba(255,255,255, .8);
   text-align: center;
-  font-family: 'Megrim', cursive;
+  font-family: 'Poiret One', cursive;
   font-size: 2.1em;
 }
 .right a:hover { color: #fff; }
