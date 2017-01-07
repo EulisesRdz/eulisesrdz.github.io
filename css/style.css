@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Exo|Merienda+One|Satisfy|Stalemate|Megrim';
+@import 'https://fonts.googleapis.com/css?family=Exo|Merienda+One|Satisfy|Stalemate|Megrim|Poiret+One';
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 @font-face {
   font-family: "untitled-font-1";
@@ -55,21 +55,21 @@ body {
 .right a, nav .brand-logo { color: #8a8683; }
 .nav-icon{
   padding: 5%;
-  background: #009587;
+  background: #03A9F4;
   color: rgba(255,255,255, .8);
   text-align: center;
-  font-family: 'Megrim', cursive;
+  font-family: 'Poiret One', cursive;
   font-size: 2.1em;
 }
 .right a:hover { color: #fff; }
 .menu{ background: #FFFFFF; }
-.menu li:hover{ background: #009587; }
+.menu li:hover{ background: #03A9F4; }
 #nav-mobile li a{ font-size: 16px; }
 #nav-mobile li a:hover{
   background: #F3F3F3;
-  color: #009587;
+  color: #03A9F4;
 }
-.button-collapse { color: #009587; }
+.button-collapse { color: #03A9F4; }
 #logo-container {
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
@@ -80,7 +80,7 @@ body {
   color: #8a8683;
   margin: 5px;
 }
-.brand-logo > span { color: #009587; }
+.brand-logo > span { color: #03A9F4; }
 section {
   text-align: center;
   background-attachment: fixed;
@@ -100,7 +100,7 @@ section {
 .separator { 
   margin: 0 auto;
   border: 1px #ffffff solid; 
-  width: 50%;
+  width: 40%;
 }
 .info{
   font-family: sans-serif;
@@ -111,7 +111,7 @@ section {
 .titulo{
   font-family: 'Merienda One', cursive;
   font-size: 4em;
-  color: #009587;
+  color: #03A9F4;
   text-shadow: #000 2px 2px 5px;
 }
 #about{
@@ -121,7 +121,7 @@ section {
 h2{
   font-family: 'Merienda One', cursive;
   font-size: 4em;
-  color: #009587;
+  color: #03A9F4;
 }
 .acercade{
   width: 90%;
@@ -159,7 +159,7 @@ h2{
   font-size: 2rem;
   margin: 0;
   margin-bottom: .5rem;
-  color: #607D8B;
+  color: #8A8683;
 }
 .title {
   margin-top: -8px;
@@ -306,11 +306,11 @@ div.social li.insta:hover {color:#957D60;}
     background: #ddd;
 }
 ::-webkit-scrollbar-thumb {
-    background: #009688;
+    background: #03A9F4;
     cursor: pointer;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0,150,136,0.8);
+    background: rgba(2,169,244,0.8);
     cursor: pointer;
 }
 ::-webkit-scrollbar{
@@ -318,11 +318,11 @@ div.social li.insta:hover {color:#957D60;}
     background: #ddd;
 }
 ::-webkit-scrollbar-thumb {
-    background: #009688;
+    background: #03A9F4;
     cursor: pointer;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0,150,136,0.8);
+    background: rgba(2,169,244,0.8);
     cursor: pointer;
 }
 @media screen and (max-width: 560px) {
@@ -334,5 +334,8 @@ div.social li.insta:hover {color:#957D60;}
     float: none;
     margin: 0 auto;
     margin-bottom: -10px;
+  }
+  .separator{
+    width: 80%;
   }
 }
