@@ -1,49 +1,36 @@
-@import 'https://fonts.googleapis.com/css?family=Exo|Merienda+One|Satisfy|Stalemate|Megrim|Poiret+One';
+@import 'https://fonts.googleapis.com/css?family=Exo|Merienda+One|Satisfy|Stalemate|Megrim|Poiret+One|Lato';
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 @font-face {
-  font-family: "untitled-font-1";
-  src:url("../fonts/untitled-font-1.eot");
-  src:url("../fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/untitled-font-1.woff") format("woff"),
-    url("../fonts/untitled-font-1.ttf") format("truetype"),
-    url("../fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-family:"icomoon";
+  src:  url('../fonts/icomoon.eot?eolywy');
+  src:  url('../fonts/icomoon.eot?eolywy#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?eolywy') format('truetype'),
+    url('../fonts/icomoon.woff?eolywy') format('woff'),
+    url('../fonts/icomoon.svg?eolywy#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-[class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
-}
-[data-icon]:before {
-  font-family: "untitled-font-1" !important;
-  content: attr(data-icon);
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
   speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "untitled-font-1" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.icon-about:before {content: "\62";}
-.icon-graduation:before {content: "\67";}
-.icon-globe:before {content: "\65";}
-.icon-map-marker:before {content: "\66";}
-.icon-home:before {content: "\61";}
-.icon-vcard:before {content: "\64";}
-.icon-picture:before {content: "\63";}
+.icon-home:before { content: "\e900";}
+.icon-profile:before { content: "\e902";}
+.icon-folder-open:before { content: "\e903";}
+.icon-user:before { content: "\e904";}
+.icon-contact:before { content: "\e905";}
+.icon-facebook:before { content: "\e907";}
+.icon-facebook2:before { content: "\e908";}
+.icon-instagram:before { content: "\e901";}
+.icon-twitter:before { content: "\e906";}
+.icon-github:before { content: "\e909";}
 body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -55,7 +42,7 @@ body {
 .right a, nav .brand-logo { color: #8a8683; }
 .nav-icon{
   padding: 5%;
-  background: #03A9F4;
+  background: #1ABC9C;
   color: rgba(255,255,255, .8);
   text-align: center;
   font-family: 'Poiret One', cursive;
@@ -63,13 +50,12 @@ body {
 }
 .right a:hover { color: #fff; }
 .menu{ background: #FFFFFF; }
-.menu li:hover{ background: #03A9F4; }
+.menu li:hover{ background: #1ABC9C; }
 #nav-mobile li a{ font-size: 16px; }
 #nav-mobile li a:hover{
-  background: #F3F3F3;
-  color: #03A9F4;
+  background: #36e4c2;
 }
-.button-collapse { color: #03A9F4; }
+.button-collapse { color: #1ABC9C; }
 #logo-container {
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
@@ -80,7 +66,7 @@ body {
   color: #8a8683;
   margin: 5px;
 }
-.brand-logo > span { color: #03A9F4; }
+.brand-logo > span { color: #1ABC9C; }
 section {
   text-align: center;
   background-attachment: fixed;
@@ -99,20 +85,21 @@ section {
 }
 .separator { 
   margin: 0 auto;
-  border: 1px #ffffff solid; 
+  border: 2px #ffffff solid; 
+  background: rgba(255,255,255,0.1);
   width: 40%;
 }
 .info{
   font-family: sans-serif;
   color: #FFFFFF;
   font-size: 1.3em;
-  text-shadow: #000 2px 2px 5px;
+   text-shadow: 2px 2px 3px #000;
 }
 .titulo{
-  font-family: 'Merienda One', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: 4em;
-  color: #03A9F4;
-  text-shadow: #000 2px 2px 5px;
+  color: #1ABC9C;
+  text-shadow: 2px 2px 3px #000;
 }
 #about{
   height: 80%;
@@ -121,7 +108,7 @@ section {
 h2{
   font-family: 'Merienda One', cursive;
   font-size: 4em;
-  color: #03A9F4;
+  color: #1ABC9C;
 }
 .acercade{
   width: 90%;
@@ -195,7 +182,7 @@ h2{
   letter-spacing: 2px;
   text-transform:capitalize;
   font-size: 2.5em;
-  color: #8A8683;
+  color: #1ABC9C;
   margin-bottom: 5px;
 }
 #frase{
@@ -212,7 +199,6 @@ h2{
 .frasetext{
   font-family: 'Exo', sans-serif;
   font-size: 4em;
-  text-transform:capitalize;
 }
 .fraseabout{
   font-family: 'Stalemate', cursive;
@@ -220,61 +206,104 @@ h2{
   text-transform:capitalize;
   font-size: 3em;
 }
-#portfolio{
+#proyectos{
   height: 80%;
   padding: 120px 0 120px;
 }
-#gallery{
+.gallery{
   width: 95%;
   max-width: 1000px;
   margin: auto;
 }
 #card {
-  width: 220px;
   height: 220px;
+  width: 220px;
   box-sizing: border-box;
   margin: 10px 13px 10px 13px;
   overflow: hidden;
   position: relative;
   display: inline-block;
   cursor: pointer;
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
+  text-align: center;
   box-shadow: 0.3px 0.3px 0.3px 1px rgba(0, 0, 0, 0.2);
 }
-#card:hover{
-    box-shadow: 0 6px 20px #AFAFAF;
-    cursor: pointer;
-    -webkit-filter: blur(0px);
-    filter: blur(0px) contrast(1);
-  }
-#card img{
-    width: 220px;
+#card img {
+  width: 220px;
     height: 220px;
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%);
-    transition: all .2s;
-  }
-#card img:hover{
-    filter: contrast(1);
-    -webkit-filter: contrast(1);
-    transform: scale(1.2);
-  }
+  display: block;
+  max-width: 100%;
+}
+.gallery figcaption {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  display: table;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.gallery figcaption p {
+  display: table-cell;
+  font-size: 1.5em;
+  position: relative;
+  top: -40px;
+  width: 289px;
+  vertical-align: middle;
+}
+.gallery > #card:hover figcaption { opacity: 1;}
+.gallery img {
+  display: block;
+  height: auto;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  max-width: 100%;
+}
+.gallery > #card:hover img {
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.gallery figcaption p {
+  display: table-cell;
+  font-size: 1.3em;
+  position: relative;
+  top: -40px;
+  width: 220px;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  vertical-align: middle;
+}
+.gallery > #card:hover figcaption p {
+  -moz-transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+}
+.gallery figcaption {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  display: table;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  transition-delay: 100ms;
+  z-index: 100;
+}
 #contact{
-  background: url(../images/02.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: #F0F0F0;
-  padding: 120px 0 120px;
-}
-div.social {
-  margin: 0px auto 0px auto;
-}
-div.social ul {
-  height: 45px;
-  margin: 0px auto;
+  background-color: #EDEDED;
+  padding: 30px 0 30px;
 }
 div.social li {
   display: inline-block;
@@ -282,17 +311,9 @@ div.social li {
   height: 55px;
   width: 55px;
   font-size: 2.3em;
-  padding: 3px;
-  color: #555555;
-  border-radius: 10em;
-  background: #EEEEEE;
+  color: #AAAAAA;
 }
-div.social li.fb, div.social li.twt, div.social li.insta{
-  color: #555555;
-}
-div.social li.fb:hover {color:#3A539B;}
-div.social li.twt:hover {color:#4099FF;}
-div.social li.insta:hover {color:#957D60;}
+div.social li.col:hover {color: #1ABC9C;}
 .h3{
   color: #FFFFFF;
   font-size: 2em;
@@ -302,27 +323,27 @@ div.social li.insta:hover {color:#957D60;}
   font-size: 1.2em;
 }
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 10px;
     background: #ddd;
 }
 ::-webkit-scrollbar-thumb {
-    background: #03A9F4;
+    background: #1ABC9C;
     cursor: pointer;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(2,169,244,0.8);
+    background: rgba(0,188,155,0.8);
     cursor: pointer;
 }
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 10px;
     background: #ddd;
 }
 ::-webkit-scrollbar-thumb {
-    background: #03A9F4;
+    background: #1ABC9C;
     cursor: pointer;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(2,169,244,0.8);
+    background: rgba(0,188,155,0.8);
     cursor: pointer;
 }
 @media screen and (max-width: 560px) {
@@ -337,5 +358,18 @@ div.social li.insta:hover {color:#957D60;}
   }
   .separator{
     width: 80%;
+    height: 10%;
+  }
+  .cv-info{
+    width: 230px;
+  }
+}
+@media screen and (max-width: 340px) {
+.frasetext{
+  font-size: 3.5em;
+}
+div.social li{
+  margin-right: -7px;
+  font-size: 2em;
   }
 }
