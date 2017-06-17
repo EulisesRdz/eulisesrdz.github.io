@@ -364,6 +364,11 @@ div.social li.col:hover {color: #1ABC9C;}
     width: 230px;
   }
 }
+@media screen and (max-width: 400px) {
+.bio{
+  margin-top: 30px;
+}
+}
 @media screen and (max-width: 340px) {
 .frasetext{
   font-size: 3.5em;
