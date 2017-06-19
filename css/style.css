@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Exo|Merienda+One|Satisfy|Stalemate|Megrim|Poiret+One|Lato';
+@import 'https://fonts.googleapis.com/css?family=Exo|Merienda+One|Satisfy|Stalemate|Megrim|Poiret+One|Lato|Bad+Script';
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 @font-face {
   font-family:"icomoon";
@@ -106,9 +106,9 @@ section {
   padding: 120px 0 120px;
 }
 h2{
-  font-family: 'Merienda One', cursive;
+  font-family: 'Bad Script', cursive;
   font-size: 4em;
-  color: #1ABC9C;
+  color: #8A8683;
 }
 .acercade{
   width: 90%;
@@ -182,7 +182,7 @@ h2{
   letter-spacing: 2px;
   text-transform:capitalize;
   font-size: 2.5em;
-  color: #1ABC9C;
+  color: #8A8683;
   margin-bottom: 5px;
 }
 #frase{
