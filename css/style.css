@@ -145,12 +145,13 @@ h2{
 }
 .box-content { margin-top: -8rem; }
 .name {
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin: 0;
   margin-bottom: .5rem;
   color: #8A8683;
 }
 .title {
+  font-size: 0.9rem;
   margin-top: -8px;
   color: #8A8683;
 }
