@@ -2,7 +2,7 @@
   "name": "EulisesRdz",
   "short_name": "EulisesRdz",
   "description": "WebSite EulisesRdz",
-  "background_color": "#00A5E3",
+  "background_color": "#E3E5E6",
   "theme_color": "#00AABE",
   "orientation": "portrait",
   "display": "standalone",
