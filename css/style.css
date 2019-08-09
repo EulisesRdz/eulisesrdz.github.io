@@ -44,7 +44,7 @@ body {
 .right a, nav .brand-logo { color: #8a8683; }
 .nav-icon{
   padding: 5%;
-  background: #1ABC9C;
+  background: #00A5E3;
   color: rgba(255,255,255, .8);
   text-align: center;
   font-family: 'Poiret One', cursive;
@@ -52,12 +52,12 @@ body {
 }
 .right a:hover { color: #fff; }
 .menu{ background: #FFFFFF; }
-.menu li:hover{ background: #1ABC9C; }
+.menu li:hover{ background: #00A5E3; }
 #nav-mobile li a{ font-size: 16px; }
 #nav-mobile li a:hover{
   background: #36e4c2;
 }
-.button-collapse { color: #1ABC9C; }
+.button-collapse { color: #00A5E3; }
 #logo-container {
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
@@ -68,7 +68,7 @@ body {
   color: #8a8683;
   margin: 5px;
 }
-.brand-logo > span { color: #1ABC9C; }
+.brand-logo > span { color: #00A5E3; }
 section {
   text-align: center;
   background-attachment: fixed;
@@ -98,9 +98,9 @@ section {
   text-shadow: 2px 2px 3px #000;
 }
 .titulo{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Great Vibes', cursive;
   font-size: 4em;
-  color: #1ABC9C;
+  color: #00A5E3;
   text-shadow: 2px 2px 3px #000;
 }
 #about{
@@ -108,7 +108,7 @@ section {
   padding: 120px 0 120px;
 }
 h2{
-  font-family: 'Bad Script', cursive;
+  font-family: 'Satisfy';
   font-size: 4em;
   color: #8A8683;
 }
@@ -317,7 +317,7 @@ div.social li {
   font-size: 2.3em;
   color: #AAAAAA;
 }
-div.social li.col:hover {color: #1ABC9C;}
+div.social li.col:hover {color: #00A5E3;}
 .h3{
   color: #FFFFFF;
   font-size: 2em;
@@ -331,7 +331,7 @@ div.social li.col:hover {color: #1ABC9C;}
     background: #ddd;
 }
 ::-webkit-scrollbar-thumb {
-    background: #1ABC9C;
+    background: #00A5E3;
     cursor: pointer;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -343,7 +343,7 @@ div.social li.col:hover {color: #1ABC9C;}
     background: #ddd;
 }
 ::-webkit-scrollbar-thumb {
-    background: #1ABC9C;
+    background: #00A5E3;
     cursor: pointer;
 }
 ::-webkit-scrollbar-thumb:hover {
