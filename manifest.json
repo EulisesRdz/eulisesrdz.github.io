@@ -1,42 +1,14 @@
 {
   "name": "EulisesRdz",
-  "short_name": "EulisesRdz",
   "description": "WebSite EulisesRdz",
-  "background_color": "#E3E5E6",
-  "theme_color": "#00A5E3",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
   "scope": "./",
   "icons": [
     {
-      "src": "./images/logo_512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "./images/logo_256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
       "src": "./images/logo_128.png",
       "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "./images/logo_64.png",
-      "sizes": "64x64",
-      "type": "image/png"
-    },
-    {
-      "src": "./images/logo_32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "./images/favicon.png",
-      "sizes": "16x16",
       "type": "image/png"
     }
   ]
