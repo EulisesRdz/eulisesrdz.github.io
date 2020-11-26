@@ -327,7 +327,7 @@ div.social li.col:hover {color: #00A5E3;}
   font-size: 1.2em;
 }
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 0px;
     background: #ddd;
 }
 ::-webkit-scrollbar-thumb {
@@ -339,7 +339,7 @@ div.social li.col:hover {color: #00A5E3;}
     cursor: pointer;
 }
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 0px;
     background: #ddd;
 }
 ::-webkit-scrollbar-thumb {
